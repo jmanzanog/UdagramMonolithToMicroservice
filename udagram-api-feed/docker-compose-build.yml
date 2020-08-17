@@ -1,0 +1,9 @@
+services:
+  udagram-feed:
+    build:
+      context: ./udagram-api-feed
+    image: jmanzanog/udagram-feed
+  udagram-user:
+    build:
+      context: ./udagram-api-user
+    image: jmanzanog/udagram-user
