@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: udagram-eks-jmanzano
-  AWS_PROFILE: default
-  AWS_REGION: us-east-2
-  JWT_SECRET: hellow
-  POSTGRES_DB: xqirljbw
-  POSTGRES_HOST: ruby.db.elephantsql.com
-  URL: http://localhost:8100
+  AWS_BUCKET: xxx
+  AWS_PROFILE: xxxx
+  AWS_REGION: xxxx
+  JWT_SECRET: xxxxx
+  POSTGRES_DB: xxxxx
+  POSTGRES_HOST: xxxxx
+  URL: xxxxxx
 metadata:
   name: env-config
